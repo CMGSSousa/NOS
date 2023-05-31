@@ -31,7 +31,7 @@ button {
 
 button:hover {
     border: 5px solid yellow;
-    background-color: aqua;
+    background-color: rgb(255, 0, 0);
     font-size: 150%;
     transition: 1s;
 }
