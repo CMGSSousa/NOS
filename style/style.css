@@ -1,11 +1,12 @@
 body {
-    background-image: url(../images/nos_logo.png);
-    
-    font-style: none;
+    background-image: url(../images/2a66feae-690b-4236-9edc-d38020364957_thumb.png);
+    background-color: white;      
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     max-width: 1080px;
-    background-color: bisque;
-
-
+   
 }
 button {
     font-size: larger;
