@@ -1,14 +1,18 @@
 body {
+    padding: 20px;
+    border: 1px solid rgb(35, 243, 7);
+    border-radius: 20px;
     background-image: url(../images/2a66feae-690b-4236-9edc-d38020364957_thumb.png);
     background-color: white;      
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 1080px;
+   
    
 }
 button {
+    
     font-size: larger;
     font-weight: bolder;
     margin: 5px;
@@ -16,48 +20,73 @@ button {
     size: 40px;
     border: 2px solid black;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+
 
 }
 
+button:hover {
+    border: 5px solid yellow;
+    background-color: aqua;
+    font-size: 150%;
+    transition: 1s;
+}
 body h1, h2, h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: brown;
-    text-shadow: 2px 2px black;
+    color: black;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.381);
     
 }
 
-div#NOS {
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 40px;
-    margin: auto;
-    max-width: 500px;
-    max-height: 800px;
-    background-color: white;
-    
-}
+
 
 div#VPN {
     border: 2px solid black;
     border-radius: 20px;
-    padding: 40px;
+    padding: 100px;
     margin: auto;
-    padding: 40px;
-    max-width: 500px;
-    max-height: 800px;
-    background-color: white;
+    padding: 100px;
+    min-width: 750px;
+    max-width: 800px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.827);
     
+}
+div#VPN:hover {
+    background-color: chartreuse;
+    transition: 1s;
+}
+div#NOS {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 100px;
+    margin: auto;
+    padding: 100px;
+    min-width: 750px;
+    max-width: 800px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.827);
+    
+}
+div#NOS:hover {
+    background-color: brown;
+    transition: 1s;
 }
 
 div#FORMS {
     border: 2px solid black;
     border-radius: 20px;
-    padding: 40px;
+    padding: 100px;
     margin: auto;
-    padding: 40px;
-    max-width: 500px;
-    max-height: 800px;
-    background-color: white;
+    padding: 100px;
+    min-width: 750px;
+    max-width: 800px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.827);
     
+}
+div#FORMS:hover {
+    background-color: blue;
+    transition: 1s;
 }
