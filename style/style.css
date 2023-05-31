@@ -1,3 +1,62 @@
-body h1,h3 {
+body {
+    background-image: url(../images/nos_logo.png);
+    
+    font-style: none;
+    max-width: 1080px;
+    background-color: bisque;
+
+
+}
+button {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 5px;
+    background-color: white;
+    size: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+body h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    color: brown;
+    text-shadow: 2px 2px black;
+    
+}
+
+div#NOS {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+    max-width: 500px;
+    max-height: 800px;
+    background-color: white;
+    
+}
+
+div#VPN {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+    padding: 40px;
+    max-width: 500px;
+    max-height: 800px;
+    background-color: white;
+    
+}
+
+div#FORMS {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+    padding: 40px;
+    max-width: 500px;
+    max-height: 800px;
+    background-color: white;
+    
 }
