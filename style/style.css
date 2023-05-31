@@ -11,6 +11,10 @@ body {
    
    
 }
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+  }
 button {
     
     font-size: larger;
