@@ -1,6 +1,8 @@
 body {
-    height: 100vh;
-    font-size: 0.6em;
+    width: 100%;
+    height: 100%;
+    font-size:calc(10px + 0.5vw);
+    font-size;
     padding: 20px;
     background-image: url(https://www.nos.pt/content/dam/nos/institucional/images-inst/homepage/governo-sociedade-dsk.jpg);
     background-color:#F7F7F7;   
@@ -11,6 +13,7 @@ body {
    
    
 }
+
 a {
     text-decoration: none;
 }
@@ -22,10 +25,9 @@ a:visited {
 
 }
 button {
+    font-size:calc(10px + 0.5vw);
     width: 200px;
     height: 50px;
-    font-size: larger;
-    font-weight: bolder;
     margin: 5px;
     background-color: white;
     size: 40px;
@@ -39,13 +41,12 @@ button {
 button:hover {
     border: 5px solid rgb(0, 0, 0);
     background-color: rgb(255, 0, 0);
-    font-size: 150%;
     transition: 1s;
 }
-body h1, h2, h3 {
+body h1, h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: black;
+    color: rgb(38, 0, 255);
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.381);
     
 }
